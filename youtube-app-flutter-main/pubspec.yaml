@@ -1,0 +1,67 @@
+name: standups
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+3
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.0
+  http: ^1.2.2
+  shared_preferences: ^2.0.15
+  font_awesome_flutter: ^10.2.1
+  url_launcher: ^6.0.9
+  html: ^0.15.4
+  cached_network_image: ^3.4.0
+  carousel_slider:
+  google_fonts: ^6.2.1
+  flutter_html: ^3.0.0-beta.2
+  youtube_player_flutter: ^9.1.1
+  visibility_detector: ^0.4.0+2
+  shimmer_animation :
+  get :
+  image_picker: ^1.1.2
+  video_player :
+
+
+
+ 
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.svg
+    - assets/artist.jpg
+    - assets/categories.jpg
+    - assets/curtain.jpg
+    - assets/background.jpg
+    - assets/background2.jpg
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+#
+#fonts:
+#  - family:  TikTokIcons
+#    fonts:
+#      - asset: assets/fonts/TikTokIcons.ttf
+fonts:
+
+  - family: poppinsBold
+    fonts:
+      - asset: assets/fonts/Poppins-Bold.ttf
+
+  - family: poppinsMedium
+    fonts:
+      - asset: assets/fonts/Poppins-Medium.ttf
+
+  - family: poppinsRegular
+    fonts:
+      - asset: assets/fonts/Poppins-Regular.ttf
